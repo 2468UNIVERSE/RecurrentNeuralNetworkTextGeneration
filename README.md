@@ -1,18 +1,10 @@
-Below is a clean, professional **README.md** with **no code included**, explaining the project conceptually and describing what your program does end-to-end.
-
----
-
 # LSTM-Based Shakespeare Text Generator
 
 This project builds a character-level text generation system using a recurrent neural network. The goal is to train a model that learns how Shakespeare wrote and then generate new text that resembles his writing style.
 
----
-
 ## Overview
 
 The project uses a large corpus of Shakespeare’s work and processes it as a sequence of characters. Instead of predicting full words, the model learns patterns at the character level. Over time, the neural network begins to recognize how characters form words, how words combine into phrases, and how sentences follow poetic or dramatic structure. Once trained, the model can produce new text that stylistically mimics Shakespeare.
-
----
 
 ## What This Program Does
 
@@ -65,21 +57,15 @@ A random starting point from the original dataset is selected.
 The trained model then predicts one character at a time, appending each new character to the output.
 Over many steps, this produces a long block of original text written in Shakespearean style.
 
----
-
 ## Why This Works
 
 The LSTM architecture is specifically designed to learn long-range relationships in sequential data.
 By training on thousands of sequences, the network gradually understands the statistical structure of English as used by Shakespeare.
 This enables it to produce readable, stylistically consistent new text.
 
----
-
 ## Output Example
 
 The script prints a header showing the selected temperature and then outputs the generated text. Each run produces a unique result depending on the temperature and the random starting seed.
-
----
 
 ## Purpose of This Project
 
@@ -87,7 +73,3 @@ The script prints a header showing the selected temperature and then outputs the
 * Understand LSTM behavior in generative tasks.
 * Practice working with character-level language models.
 * Produce literature-style creative text.
-
----
-
-If you want, I can also prepare a **shorter README**, a **more technical version**, or one written in **simple language**.
